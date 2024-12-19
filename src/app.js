@@ -16,6 +16,9 @@ app.get('/services', (req, res) => {
     res.sendFile(path.join(__dirname, '../public', 'services.html'));
 });
 
+app.get('/9267gazerj9r5t4jonif5dicj9vr8l.html', (req, res) => {
+    res.sendFile(path.join(__dirname, '../public', '9267gazerj9r5t4jonif5dicj9vr8l.html'));
+});
 
 // Iniciar o servidor
 
